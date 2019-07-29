@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="091658fc-9734-409a-8ead-0ad2411c25a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendmail.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nomad/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nomad/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nomad/main/TestSendMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nomad/service/SendMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/.directory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mail.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nomad/test/SendMailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.directory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/sendmail.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nomad/config/BeanConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nomad/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nomad/main/TestSendMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nomad/service/SendMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mail.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nomad/test/SendMailTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sendmail" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.6744367">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="185">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nomad/service/SendMail.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nomad/config/BeanConfig.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="309">
+                  <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" column="31" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/nomad/test/SendMailTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="117">
+                  <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/nomad/config/mail.properties" />
+        <option value="$PROJECT_DIR$/src/com/nomad/config/BeanConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/nomad/main/SendMail.java" />
+        <option value="$PROJECT_DIR$/src/com/nomad/service/SendMail.java" />
+        <option value="$PROJECT_DIR$/src/com/nomad/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/com/nomad/main/TestSendMain.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nomad/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nomad/test/SendMailTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nomad/config/mail.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nomad/main/TestSendMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mail.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nomad/config/BeanConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nomad/service/SendMail.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sendmail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="4" />
+    <option name="width" value="1598" />
+    <option name="height" value="432" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nomad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nomad" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nomad" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sendmail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="sendmail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nomad.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com.nomad.config" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/nomad/config" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SendMailTest.testSendMail">
+    <configuration name="TestSendMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nomad.main.TestSendMain" />
+      <module name="sendmail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nomad.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendMailTest.testSendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sendmail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nomad.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nomad.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nomad.test.SendMailTest" />
+      <option name="METHOD_NAME" value="testSendMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SendMailTest.testSendMail" />
+        <item itemvalue="Application.TestSendMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="091658fc-9734-409a-8ead-0ad2411c25a1" name="Default Changelist" comment="" />
+      <created>1564323626564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564323626564</updated>
+      <workItem from="1564323628394" duration="843000" />
+      <workItem from="1564380869168" duration="15112000" />
+      <workItem from="1564408593154" duration="3636000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 20h 41m 05s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 20h 57m 28s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 20h 58m 32s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 21h 00m 30s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 21h 54m 15s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 21h 56m 49s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 22h 13m 12s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 22h 20m 31s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 23h 30m 45s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendMailTest_testSendMail - 2019.07.29 at 23h 33m 08s.xml">
+      <configuration name="SendMailTest.testSendMail" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19591000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-4" width="1602" height="879" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5009141" side_tool="true" weight="0.17394096" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.47863248" visible="true" weight="0.17394096" />
+      <window_info id="Structure" order="6" sideWeight="0.52136755" side_tool="true" visible="true" weight="0.17394096" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3287858" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3287858" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3287858" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.5204918" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39972714" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3287858" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32991013" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32991013" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24967907" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25417203" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3287858" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar!/org/springframework/mail/MailSender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar!/org/springframework/mail/javamail/JavaMailSender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.nomad.config/mail.properties" />
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
+          <folding>
+            <element signature="e#5784#5785#0" expanded="true" />
+            <element signature="e#5810#5811#0" expanded="true" />
+            <element signature="e#5987#5988#0" expanded="true" />
+            <element signature="e#6027#6028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-context-support-4.3.18.RELEASE-sources.jar!/org/springframework/mail/javamail/JavaMailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nomad/main/TestSendMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nomad/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nomad/config/BeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nomad/service/SendMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nomad/test/SendMailTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sendmail</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
