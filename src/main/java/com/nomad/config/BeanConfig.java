@@ -22,14 +22,24 @@ public class BeanConfig {
     @Bean
     public MailSender mailSender(Environment environment) {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+        //或者使用placeholder...+@value(${})获取属性
+        //或者spring el : @value(#{})获取属性
         mailSender.setHost(environment.getProperty("mailserver.host"));
         mailSender.setPort(Integer.parseInt(environment.getProperty("mailserver.port")));
         mailSender.setUsername(environment.getProperty("mailserver.username"));
         mailSender.setPassword(environment.getProperty("mailserver.password"));
+        mailSender.setDefaultEncoding(environment.getProperty("mailserver.default-encoding"));
+        mailSender.setProtocol(environment.getProperty("mailserver.protocol"));
+
         Properties properties = new Properties();
         properties.setProperty("mail.smtp.auth", "true");
         properties.setProperty("mail.smtp.timeout", "25000");
+        properties.setProperty("mail.debug", "true");
+        properties.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+        properties.setProperty("mail.smtp.socketFactory.port", "465");
+
         mailSender.setJavaMailProperties(properties);
+
         return mailSender;
     }
 
